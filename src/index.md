@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 title: 首页
-heroText: "Phigrim-Docs"
+heroText: "Phigrim Docs"
 tagline: "社区驱动的开发、设计文档📰"
 actions:
 - text: 使用教程🧭
@@ -17,15 +17,19 @@ actions:
 
 features:
 - title: 开放
+  icon: code
   details: 提供开放的配置文件编辑
-- title: 开放
-  details: 提供开放的配置文件编辑
-- title: 开放
-  details: 提供开放的配置文件编辑
-- title: 开放
-  details: 提供开放的配置文件编辑
+- title: 共享
+  icon: link
+  details: 将成果分享给所有社区游戏
+- title: 互助
+  icon: code-compare
+  details: 允许通过Github共同编辑文档
+- title: 创造
+  icon: play
+  details: 高度个性化编辑选项
 
-footer: Mozilla Licensed | Copyright © 2022 TeamPhigrim
+footer: Mozilla Licensed | Copyright © 2023 luch4736
 ---
 
 # [首页](../index.md)

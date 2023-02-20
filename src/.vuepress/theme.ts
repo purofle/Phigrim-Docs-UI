@@ -8,7 +8,8 @@ export default hopeTheme({
             children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/NoteDesign.md'],
         },
         {
-            text: '谱面',
+            text: '谱面拓展',
+            icon: 'list',
             children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/NoteDesign.md'],
         },
         {
@@ -19,6 +20,7 @@ export default hopeTheme({
     ],
     navbarAutoHide:"mobile",
     repo:"phigrim/Phigrim-Docs",
+    pure: true,
     navbarIcon:true,
     iconAssets: "fontawesome",
 

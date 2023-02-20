@@ -1,6 +1,7 @@
 ---
 lang: zh-CN
 title: 按键设计与使用
+icon: list
 description: Phigrim官方美术文档
 ---
 
@@ -12,10 +13,10 @@ description: Phigrim官方美术文档
 
 ### 基础资源文件
 
-资源包为 Zip 格式，后缀为 .pma 的压缩文件，如下：
+资源包为 Zip 格式，后缀为 .pap 的压缩文件，如下：
 
 ```files:no-line-numbers
-└─ phigrim_offcial.pma         
+└─ phigrim_offcial.pap         
 	├─ notes
 	│  ├─ Tap.png 
 	│  ├─ Drag.png

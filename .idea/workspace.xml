@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7a56c0-76b9-48c8-a8ff-1b977e54312a" name="变更" comment="">
-      <changelist_data name="luch4736" email="89386521+luch4736@users.noreply.github.com" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2a7a56c0-76b9-48c8-a8ff-1b977e54312a" name="变更" comment="格式化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.vuepress/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/NoteDesign.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/NoteDesign.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\22652\Documents\GitHub\Phigrim-Docs-UI\src\.vuepress" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.docs:dev">
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -89,14 +93,24 @@
       <workItem from="1676904674934" duration="213000" />
       <workItem from="1676904898520" duration="476000" />
       <workItem from="1676905419293" duration="97000" />
-      <workItem from="1676905524500" duration="110000" />
+      <workItem from="1676905524500" duration="2770000" />
     </task>
+    <task id="LOCAL-00001" summary="格式化">
+      <created>1676905683715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676905683715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="格式化" />
+    <option name="LAST_COMMIT_MESSAGE" value="格式化" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
