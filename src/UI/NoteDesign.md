@@ -108,10 +108,10 @@ hitFxFrameCounts: 30
 ### 拓展资源文件
 您可以使用拓展资源文件进行更多设定，可添加文件如下
 
-| notes文件夹的拓展文件 | 描述              | sounds文件夹的拓展文件 | 描述                  |
-| :-------------------- | :---------------- | :--------------------- | :-------------------- |
-| TapHL.png             | 高亮的`Tap`音符   | TapHL.ogg              | 高亮的`Tap`音符音效   |
-| DragHL.png            | 高亮的`Drag`音符  | DragHL.ogg             | 高亮的`Drag`音符音效  |
-| FlickHL.png           | 高亮的`Flick`音符 | FlickHL.ogg            | 高亮的`Flick`音符音效 |
-| HoldHL.png            | 高亮的`Hold`音符  | HoldHL.ogg             | 高亮的`Hold`音符音效  |
+| notes文件夹的拓展文件 | 描述           | sounds文件夹的拓展文件 | 描述             |
+|:--------------|:-------------|:---------------|:---------------|
+| TapHL.png     | 高亮的`Tap`音符   | TapHL.ogg      | 高亮的`Tap`音符音效   |
+| DragHL.png    | 高亮的`Drag`音符  | DragHL.ogg     | 高亮的`Drag`音符音效  |
+| FlickHL.png   | 高亮的`Flick`音符 | FlickHL.ogg    | 高亮的`Flick`音符音效 |
+| HoldHL.png    | 高亮的`Hold`音符  | HoldHL.ogg     | 高亮的`Hold`音符音效  |
 

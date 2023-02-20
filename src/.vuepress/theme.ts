@@ -21,7 +21,6 @@ export default hopeTheme({
     repo:"phigrim/Phigrim-Docs",
     navbarIcon:true,
     iconAssets: "fontawesome",
-    headerDepth: 3,
 
     logo: "/Logo/Phigrim_Docs.png",
     sidebar: [
