@@ -64,7 +64,6 @@ export default hopeTheme({
             children: [
                 'index.md',
                 'publicNotice.md',
-                'license.md'
             ],
         },
     ],
