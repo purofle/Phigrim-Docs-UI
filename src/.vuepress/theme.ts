@@ -1,52 +1,69 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import {hopeTheme} from 'vuepress-theme-hope';
 
 export default hopeTheme({
     navbar:[
         {
-            text: '设计与配置',
+            text: '设计规范',
             icon: 'lightbulb',
-            children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/basic.md'],
+            children: ['../Design/Illustration.md', '../Design/Tachie.md', '../Design/basic.md'],
         },
         {
             text: '谱面拓展',
             icon: 'list',
-            children: ['/Chart/AssetPackageDesign/basic.md', '/Chart/AssetPackageDesign/further.md'],
+            children: ['/Chart/AssetPackageDesign/index.md',],
         },
         {
-            text: '关于我们',
+            text: '游戏界面文档',
             icon: 'compass',
-            children: ['../UI_Dev/Illustration.md', '../UI_Dev/Tachie.md','../UI_Dev/basic.md'],
+            children: ['/GameUI/index.md',],
+        },
+        {
+            text: '关于',
+            icon: 'compass',
+            children: ['/About/index.md', '/About/publicNotice.md'],
         },
     ],
-    navbarAutoHide:"mobile",
-    repo:"phigrim/Phigrim-Docs",
+    navbarAutoHide: 'mobile',
+    repo: 'luch4736/Phigrim-Docs-UI',
+    docsRepo: 'https://github.com/luch4736/Phigrim-Docs-UI',
+    docsBranch: 'main',
+    docsDir: 'src',
     pure: true,
-    navbarIcon:true,
-    iconAssets: "fontawesome",
+    navbarIcon: true,
+    iconAssets: 'fontawesome',
 
-    logo: "/Logo/Phigrim_Docs.png",
+    logo: '/Logo/Phigrim_Docs.png',
     sidebar: [
-
         {
-            text: "资源包设计与应用",
-            icon: "lightbulb",
-            prefix: "/Chart/AssetPackageDesign/",
+            text: '资源包设计与应用',
+            icon: 'lightbulb',
+            prefix: '/Chart/AssetPackageDesign/',
             collapsible: true,
-            activeMatch: "^/Chart/AssetPackageDesign/$",
             children: [
-                "basic.md",
-                "further.md"
+                'basic.md',
+                'further.md'
+            ],
+            activeMatch: '^/Chart/',
+        },
+        {
+            text: '谱面拓展',
+            icon: 'lightbulb',
+            prefix: '/Chart/ChartPackageDesign/',
+            collapsible: true,
+            children: [
+                'Illustration.md',
+                'basic.md',
+                'Tachie.md'
             ],
         },
         {
-            text: "谱面拓展与配置",
-            icon: "lightbulb",
-            prefix: "/UI/",
-            collapsible: true,
+            text: '关于',
+            icon: 'lightbulb',
+            prefix: '/About',
+            collapsible: false,
             children: [
-                "Illustration.md",
-                "basic.md",
-                "Tachie.md"
+                'index.md',
+                'publicNotice.md'
             ],
         },
     ],

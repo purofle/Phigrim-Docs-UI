@@ -34,15 +34,15 @@ footer: Mozilla Licensed | Copyright © 2023 luch4736
 
 # [首页](../index.md)
 
-这里是指引页面，您可以从此页面快速访问各种文档
+这里是指引页面，您可以从此页面快速访问常用文档
 
 [//]: # (TODO 完善index内容和索引)
 
-## [UI 设计规范](../UI/index.md)
+## 快速开始
 
 - [曲绘](../UI/Illustration.md)
 - [立绘](../UI/Tachie.md)
-- [Note 设计](../UI/NoteDesign.md)
+- [资源包设计](../UI/NoteDesign.md)
 
 ## [UI 开发规范](../UI_dev/index.md)
 
