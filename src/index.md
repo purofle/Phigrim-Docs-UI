@@ -10,10 +10,10 @@ actions:
   type: primary
 
 - text: 介绍💡
-  link: /zh/guide/get-started/intro.html
+  link: /About/publicNotice.md
 
-- text: 关于我们❔
-  link: /zh/config/
+- text: 关于Phigrim❔
+  link: /About/index.md
 
 features:
 - title: 开放
