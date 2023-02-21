@@ -63,7 +63,8 @@ export default hopeTheme({
             collapsible: false,
             children: [
                 'index.md',
-                'publicNotice.md'
+                'publicNotice.md',
+                'license.md'
             ],
         },
     ],

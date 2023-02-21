@@ -3,7 +3,7 @@ lang: zh-CN
 title: 资源包制作入门
 icon: list
 ---
-
+[//]: # (This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.)
 # 资源包制作入门
 
 你可以在 Phigrim 中套用自己的游戏按键、音效、粒子、打击音效、判定线等素材，可以使用由社区提供的开放资源包，也可以制作您自己资源包，本文档将说明制作方法。

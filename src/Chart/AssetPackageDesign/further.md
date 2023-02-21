@@ -3,7 +3,7 @@ lang: zh-CN
 title: 资源包制作进阶
 icon: list
 ---
-
+[//]: # (This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.)
 # 资源包制作进阶
 
 本文档说明了资源包部分的进阶选项以及套用方法。
