@@ -1,17 +1,17 @@
 ---
 lang: zh-CN
-title: 按键设计与使用
+title: 资源包入门
 icon: list
 description: Phigrim官方美术文档
 ---
 
-# 按键设计与使用
+# 资源包入门
 
 你可以在 Phigrim 中套用自己的游戏按键、音效、粒子、打击音效、判定线等素材，可以使用由社区提供的开放资源包，也可以制作您自己资源包，本文档将说明制作方法。
 
 ## 结构
 
-### 基础资源文件
+### 基础资源包
 
 资源包为 Zip 格式，后缀为 .pap 的压缩文件，如下：
 
@@ -51,68 +51,10 @@ holdRepeat: false, // Hold 音符的中间部分是否采用重复式拉伸
 holdCompact: false, // Hold 音符的中间部分是否与头尾分离
 
 ```
-
-配置文件基本选项：
-
-#### packageName
-- 类型：`string`
-- 必填：`true`
-- 默认值：`"PhigrimAssetsPackage"`
-```typescript
-packageName: "PhigrimAssetsPackage"
-```
-资源包的显示名称（在游戏设置中）
-
-#### author
-- 类型：`string`
-- 必填：`true`
-- 默认值：`"Phigrim Arts"`
-```typescript
-author: "Phigrim Arts"
-```
-资源包的作者名称
-
-#### isFrameSequence
-- 类型：`boolean`
-- 必填：`true`
-- 默认值：`true`
-```typescript
-isFrameSequence: true
-```
-::: tip
-当此选项为`False`时，将开启[hitFx](#hitFx)选项，如无该选项将会报错
-:::
-
-#### hitFx
-- 类型：`int`
-- 必填：`true`
-- 默认值：`true`
-```typescript
-hitFx: [5, 6]
-```
-行、列裁切数量
-
-#### hitFxFrameCounts
-- 类型：`boolean`
-- 必填：`true`
-- 默认值：`true`
-```typescript
-hitFxFrameCounts: 30
-```
-行、列裁切数量
-
-
+您可以在[资源文件](further.md#配置文件编辑)中查看详细可选项
 ::: warning 注意
 若您的资源包不包含config.txt，将会抛出报错。
 :::
 
-### 拓展资源文件
-您可以使用拓展资源文件进行更多设定，可添加文件如下
 
-| notes文件夹的拓展文件 | 描述           | sounds文件夹的拓展文件 | 描述             |
-|:--------------|:-------------|:---------------|:---------------|
-| TapHL.png     | 高亮的`Tap`音符   | TapHL.ogg      | 高亮的`Tap`音符音效   |
-| DragHL.png    | 高亮的`Drag`音符  | DragHL.ogg     | 高亮的`Drag`音符音效  |
-| FlickHL.png   | 高亮的`Flick`音符 | FlickHL.ogg    | 高亮的`Flick`音符音效 |
-| HoldHL.png    | 高亮的`Hold`音符  | HoldHL.ogg     | 高亮的`Hold`音符音效  |
 

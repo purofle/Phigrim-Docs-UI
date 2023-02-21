@@ -36,7 +36,7 @@ footer: Mozilla Licensed | Copyright © 2023 luch4736
 
 这里是指引页面，您可以从此页面快速访问各种文档
 
-
+[//]: # (TODO 完善index内容和索引)
 
 ## [UI 设计规范](../UI/index.md)
 

@@ -5,17 +5,17 @@ export default hopeTheme({
         {
             text: '设计与配置',
             icon: 'lightbulb',
-            children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/NoteDesign.md'],
+            children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/basic.md'],
         },
         {
             text: '谱面拓展',
             icon: 'list',
-            children: ['../UI/Illustration.md', '../UI/Tachie.md','../UI/NoteDesign.md'],
+            children: ['/Chart/AssetPackageDesign/basic.md', '/Chart/AssetPackageDesign/further.md'],
         },
         {
             text: '关于我们',
             icon: 'compass',
-            children: ['../UI_Dev/Illustration.md', '../UI_Dev/Tachie.md','../UI_Dev/NoteDesign.md'],
+            children: ['../UI_Dev/Illustration.md', '../UI_Dev/Tachie.md','../UI_Dev/basic.md'],
         },
     ],
     navbarAutoHide:"mobile",
@@ -28,14 +28,14 @@ export default hopeTheme({
     sidebar: [
 
         {
-            text: "界面设计与配置",
+            text: "资源包设计与应用",
             icon: "lightbulb",
-            prefix: "/UI/",
+            prefix: "/Chart/AssetPackageDesign/",
             collapsible: true,
+            activeMatch: "^/Chart/AssetPackageDesign/$",
             children: [
-                "Illustration.md",
-                "NoteDesign.md",
-                "Tachie.md"
+                "basic.md",
+                "further.md"
             ],
         },
         {
@@ -45,7 +45,7 @@ export default hopeTheme({
             collapsible: true,
             children: [
                 "Illustration.md",
-                "NoteDesign.md",
+                "basic.md",
                 "Tachie.md"
             ],
         },
