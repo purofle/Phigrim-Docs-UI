@@ -13,9 +13,14 @@ export default hopeTheme({
             children: ['/Chart/AssetPackageDesign/index.md',],
         },
         {
-            text: '游戏界面文档',
+            text: '游戏界面',
             icon: 'compass',
-            children: ['/GameUI/index.md',],
+            children: ['/GameUI/index.md','/GameUI/todo.md'],
+        },
+        {
+            text: '游戏机制',
+            icon: 'compass',
+            children: ['/Phigrim/index.md',],
         },
         {
             text: '关于',
@@ -43,10 +48,10 @@ export default hopeTheme({
                 'basic.md',
                 'further.md'
             ],
-            activeMatch: '^/Chart/',
+            // activeMatch: '^/Chart/',
         },
         {
-            text: '谱面拓展',
+            text: '谱面资源包设计与应用',
             icon: 'lightbulb',
             prefix: '/Chart/ChartPackageDesign/',
             collapsible: true,
@@ -54,6 +59,16 @@ export default hopeTheme({
                 'Illustration.md',
                 'basic.md',
                 'Tachie.md'
+            ],
+        },
+        {
+            text: '游戏界面',
+            icon: 'lightbulb',
+            prefix: '/GameUI/',
+            collapsible: true,
+            children: [
+                'index.md',
+                'todo.md',
             ],
         },
         {
@@ -67,4 +82,9 @@ export default hopeTheme({
             ],
         },
     ],
+    plugins: {
+        mdEnhance: {
+            tasklist: true,
+        },
+    },
 });
