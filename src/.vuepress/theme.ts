@@ -85,6 +85,7 @@ export default hopeTheme({
     plugins: {
         mdEnhance: {
             tasklist: true,
+            codetabs: true,
         },
     },
 });
